@@ -50,9 +50,8 @@ FirebaseAuth auth;
 FirebaseConfig config;
 Preferences preferences;
 
-#define API_KEY "AIzaSyDVX6KK--FrZ2RwM3jJtnI6rk5zR1grDIE"
-#define DATABASE_URL "https://cohaco-e1541-default-rtdb.asia-southeast1.firebasedatabase.app/"
-const char* firebaseHost = "your-project-id.firebaseio.com";
+#define API_KEY "firebase api key"
+#define DATABASE_URL "firebase url"
 // Obstacle detection variables for the three IR sensors
 int firstSensorCount = 0;
 int secondSensorCount = 0;
@@ -85,7 +84,6 @@ int day, month, year, baseYear, hour, minute, ampm, timeFormat;
 bool isAPMode = true;  // Global flag to track AP or STA mode
 bool apModeMessagePrinted = false; 
 
-const char* firebaseFunctionUrl ="https://us-central1-cohaco-e1541.cloudfunctions.net/updateRelayControl";
 
 // Wi-Fi credentials
 char ssidValue[32] = "";  // Maximum length of Wi-Fi SSID
